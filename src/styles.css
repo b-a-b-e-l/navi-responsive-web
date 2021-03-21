@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+/* typography */
+
+h1 {
+  font-family: "Prociono", serif;
+  color: #fbfcfd;
+  font-size: 2rem;
+  margin: 0;
+}
+h1 span {
+  color: #c8d6df;
+}
+
+.subtitle {
+  font-weight: 600;
+  color: #fbfcfd;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #52758d;
+  padding: 2em 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e8eef2;
+  font-weight: 700;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #e6d3d5;
+}
