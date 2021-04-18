@@ -70,6 +70,12 @@ a:focus {
   color: #2d2d2d;
   text-decoration: underline;
 }
+
+.widget-title,
+.widget-recent-post-title {
+  font-size: 1rem;
+}
+
 /* layout */
 
 .container {
@@ -90,17 +96,24 @@ header {
   text-align: center;
   margin-bottom: 1.63em;
 }
-
+footer {
+  background-color: #c8d6df;
+  color: #2d2d2d;
+  text-align: center;
+  padding: 2.33em;
+}
 @media (min-width: 675px) {
   .container-flex {
     flex-direction: row;
   }
   main {
-    width: 70%;
+    width: 73%;
   }
 
   aside {
-    width: 25%;
+    width: 23%;
+    min-width: 193px;
+    margin-left: 0.33em;
   }
 }
 
@@ -188,4 +201,43 @@ nav a:focus {
     height: 233px;
     object-fit: cover;
   }
+}
+.image-full {
+  max-height: 490px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.full-article h3 {
+  background-color: #e6d3d5;
+  line-height: 1.55em;
+}
+
+/* widgets */
+
+.sidebar-widget {
+  border: 6.33px solid #e6d3d5;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.widget-recent-post {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.5px solid #bdbad9;
+  margin-bottom: 0.5em;
+}
+
+.widget-recent-post img {
+  width: 100%;
+  height: 123px;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+  order: -1;
+}
+
+.widget-recent-post:last-child {
+  border: none;
+  margin: 0;
 }
