@@ -4,6 +4,7 @@ body {
   font-size: 1.125rem;
   font-weight: 400;
   color: #2d2d2d;
+  line-height: 1.33;
 }
 
 img {
@@ -50,12 +51,14 @@ a:focus {
 
 .article-title {
   font-size: 1.5rem;
+  letter-spacing: 1.33px;
 }
 .article-info {
   color: #bdbad9;
   font-size: 0.875rem;
   text-transform: uppercase;
   margin: 2em 0;
+  order: -1;
 }
 .article-read-more {
   font-family: "Ubuntu Mono", monospace;
@@ -64,6 +67,7 @@ a:focus {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
+  letter-spacing: 0.8px;
 }
 .article-read-more:hover,
 .article-read-more:focus {
@@ -74,6 +78,8 @@ a:focus {
 .widget-title,
 .widget-recent-post-title {
   font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
 }
 
 /* layout */
@@ -194,16 +200,13 @@ nav a:focus {
   }
   .article-image {
     order: -2;
-  }
-  .article-image {
-    order: -1;
     width: 100%;
     height: 233px;
     object-fit: cover;
   }
 }
 .image-full {
-  max-height: 490px;
+  max-height: 455px;
   width: 100%;
   object-fit: cover;
   margin-bottom: 1em;
