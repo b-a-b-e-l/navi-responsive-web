@@ -1,3 +1,6 @@
 # navi-responsive-web
 
-responsive web with navigation bar and subpages
+- Responsive web
+- Mobile first
+- Navigation bar 
+- Subpages
